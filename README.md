@@ -3,6 +3,8 @@ backbone-forms Wizard
 
 An example of backbone forms fieldsets wizard rendering with Fuel UX
 
+#### See the demo [here](http://amiceli.github.io/backboneformsWizard/)
+
 # Technologies used
 
 [backbone-forms](https://github.com/powmedia/backbone-forms)
