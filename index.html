@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stepper</title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/fuelux/dist/css/fuelux.min.css">
+    <link rel="stylesheet" href="bower_components/backbone-forms/distribution/templates/bootstrap3.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="row">
+            <h1>Stepper with Backbone forms</h1>
+        </header>
+        <main class="row">
+            <div class="col-md-4">
+                <h1>JSON file with forms schema</h1>
+                <input type="file" id="jsonFile" accept='.json' />
+                <div>
+                    <button id="create" class="btn btn-lg btn-success">Create stepper</button><br />
+                    <div class="center">Or</div>
+                    <button id="load" class="btn btn-lg btn-info">Load stepper</button>
+                </div>
+            </div>
+            <div class="col-md-8 fuelux">
+                <div id="secondWizard"></div>
+                <br />
+                <div id="myWizard"></div>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <script src="bower_components/backbone-forms/distribution/backbone-forms.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/fuelux/dist/js/fuelux.min.js"></script>
+    <script src="bower_components/backbone-forms/distribution/templates/bootstrap3.js"></script>
+    <script src="brain.js"></script>
+</body>
+
+</html>

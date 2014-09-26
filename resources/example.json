@@ -1,0 +1,31 @@
+{
+    "schema": {
+        "name": {
+            "type": "Text"
+        },
+        "firstname": {
+            "type": "Text"
+        },
+        "adress" : {
+            "type" : "Text"
+        },
+        "country" : {
+            "type" : "Select",
+            "options" : {
+                "Italy" : "Italy",
+                "Germany" : "Germany",
+                "USA" : "USA"
+            }
+        }
+    },
+    "fieldsets": [
+        {
+            "legend": "Person description",
+            "fields": ["name", "firstname"]
+        },
+        {
+            "legend": "Adress description",
+            "fields": ["adress", "country"]
+        }
+    ]
+}
