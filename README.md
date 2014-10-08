@@ -34,7 +34,8 @@ And an the JSON file :
 	{
 	    "schema": {
 	        "name": {
-	            "type": "Text"
+	            "type": "Text",
+	            "validators" : ["required"]
 	        },
 	        "firstname": {
 	            "type": "Text"
