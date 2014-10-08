@@ -1,7 +1,9 @@
 {
     "schema": {
         "name": {
-            "type": "Text"
+            "type": "Text",
+            "validators" : ["required"],
+            "title" : "Name"
         },
         "firstname": {
             "type": "Text"

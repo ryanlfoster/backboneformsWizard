@@ -43,6 +43,19 @@ $(document).ready( function() {
         }).error(function() {
             alert('File can\'t be loaded !');
         })
+    });
+
+    $('#load2').click(function() {
+        $.getJSON('resources/example.json', function(data) {
+            var d = new FieldSetView({
+                el        : '#secondWizard',
+                schema    : data['schema'],
+                fieldsets : data['fieldsets']
+            });
+            d.render();
+        }).error(function() {
+            alert('File can\'t be loaded !');
+        })
     })
 
 })
